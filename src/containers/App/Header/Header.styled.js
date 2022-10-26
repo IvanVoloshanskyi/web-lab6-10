@@ -6,9 +6,13 @@ export const HeaderContainer = styled.div`
     border: 0.0625rem solid black;
     display: flex;
     align-items: center;
+    
     img {
         height: 80%;
         padding-left: 2rem;
         justify-self: left;
+    }
+    .hidden {
+        display: none;
     }
 `;

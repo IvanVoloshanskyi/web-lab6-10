@@ -19,7 +19,7 @@ import logo from "../../../images/logo.png";
 const Footer = () => {
     return(
         <FooterContainer>
-            <FooterContent bgImage={logo} >
+            <FooterContent>
                 <FooterText>
                     <FooterTitle>Branding stuff</FooterTitle>
                     <FooterDescription>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo</FooterDescription>

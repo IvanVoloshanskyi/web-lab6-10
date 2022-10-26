@@ -1,7 +1,8 @@
 import styled from 'styled-components';
-
+// margin: 0 auto;
 export const NavContainer = styled.div`
-    margin: 0 auto;
+    margin-left: 460px;
+    margin-right:200px;
     height: 100%;
     .selected {
         background-color: lightgray;
@@ -15,12 +16,13 @@ export const NavContainer = styled.div`
         height: 100%;
         gap: 1rem;
         margin: 0;
-        padding: 0 4rem 0 0;
+        padding-inline-start: 0;
     }
     li {
         display: flex;
         align-items: center;
         height: 100%;
+        
     }
     div {
         display: flex;
@@ -32,8 +34,9 @@ export const NavContainer = styled.div`
         font-size: 1rem;
         font-weight: 100;
     }
-    a {
+    .link {
         color: black;
         text-decoration: none;
+        margin-bottom: 0.2rem;
     }
 `
