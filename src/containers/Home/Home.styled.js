@@ -8,6 +8,7 @@ export const HomeContainer = styled.div`
     gap: 13rem;
     img {
         width: 35%;
+        
     }
     button {
         height: 4rem;
@@ -26,6 +27,8 @@ export const Heading = styled.section`
     width: 90%;
     display: flex;
     gap: 3rem;
+
+    
 `
 
 export const TextContent = styled.div`
@@ -50,6 +53,7 @@ export const ContentShips = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 4rem;
+    
 `
 
 export const Tiles = styled.section`
@@ -57,4 +61,9 @@ export const Tiles = styled.section`
     display: flex;
     gap: 8rem;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+    .hidden {
+        display: none;
+    }
 `
